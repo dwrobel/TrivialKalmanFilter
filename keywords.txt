@@ -1,0 +1,17 @@
+#######################################
+# Syntax Coloring Map
+#        for
+# TrivialKalmanFilter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+TrivialKalmanFilter	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+update	KEYWORD2
+get	KEYWORD2
+reset	KEYWORD2

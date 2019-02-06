@@ -1,0 +1,25 @@
+{
+    "name": "TrivialKalmanFilter",
+
+    "keywords": "kalman, filter, signal, noise, sensor, temperature",
+
+    "description": "Unidimensional trivial Kalman filter (header only, Arduino compatible) library",
+
+    "authors": {
+        "name": "Damian Wrobel",
+        "email": "<dwrobel@ertelnet.rybnik.pl",
+        "url": "https://github.com/dwrobel/TrivialKalmanFilter",
+        "maintainer": true
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "github.com/dwrobel/TrivialKalmanFilter.git"
+    },
+
+    "platforms": "*",
+
+    "build": {
+        "flags": "-lm"
+    }
+}
