@@ -1,7 +1,7 @@
 {
     "name": "TrivialKalmanFilter",
     
-    "version": "1.0.0",
+    "version": "1.0.1",
 
     "keywords": "kalman, filter, signal, noise, sensor, temperature",
 

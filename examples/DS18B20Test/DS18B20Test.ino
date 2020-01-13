@@ -18,7 +18,12 @@
 #include <DallasTemperature.h>
 #include <TrivialKalmanFilter.h>
 
+#ifdef ARDUINO_ARCH_STM32
+#define ONE_WIRE_BUS PB8        // The pin DS18B20 is connected to.
+#else
 #define ONE_WIRE_BUS A1         // The pin DS18B20 is connected to.
+#endif
+
 #define DT_COVARIANCE_RK 4.7e-3 // Estimation of the noise covariances (process)
 #define DT_COVARIANCE_QK 1e-5   // Estimation of the noise covariances (observation)
 
