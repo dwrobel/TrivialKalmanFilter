@@ -21,7 +21,7 @@
 
     "platforms": "*",
     
-    "frameworks": "arduino",
+    "frameworks": "*",
 
     "build": {
         "flags": "-lm"
