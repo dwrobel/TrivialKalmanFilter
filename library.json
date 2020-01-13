@@ -1,5 +1,7 @@
 {
     "name": "TrivialKalmanFilter",
+    
+    "version": "1.0.0",
 
     "keywords": "kalman, filter, signal, noise, sensor, temperature",
 
@@ -7,7 +9,7 @@
 
     "authors": {
         "name": "Damian Wrobel",
-        "email": "<dwrobel@ertelnet.rybnik.pl",
+        "email": "dwrobel@ertelnet.rybnik.pl",
         "url": "https://github.com/dwrobel/TrivialKalmanFilter",
         "maintainer": true
     },
@@ -18,6 +20,8 @@
     },
 
     "platforms": "*",
+    
+    "frameworks": "*",
 
     "build": {
         "flags": "-lm"
