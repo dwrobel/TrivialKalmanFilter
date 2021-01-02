@@ -89,7 +89,7 @@ public:
     D Pk       = (Fk * Pk_last * Fk_T) + Qk; // Predicted (a priori) error covariance
     D yk       = zk - (Hk * xk);             // Innovation or measurement pre-fit residual
     const D Sk = Rk + (Hk * Pk * Hk_T);      // Innovation (or pre-fit residual) covariance
-    D Kk       = (Pk * Hk_T) / Sk;           // Optimal Kalman gain
+    const D Kk = (Pk * Hk_T) / Sk;           // Optimal Kalman gain
     xk         = xk + (Kk * yk);             // Updated (a posteriori) state estimate
     Pk         = (I - (Kk * Hk)) * Pk;       // Updated (a posteriori) estimate covariance (a.k.a Joseph form)
 
